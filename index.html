@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="_assets/_css/style.css">
+    <link rel="stylesheet" href="_assets/_css/style-mobile.css">
     <title>Óculos Mania</title>
 </head>
 <body>
@@ -39,31 +40,35 @@
         </div>   
     </header>
 
-    <div id="banner">
-        <a href="#">
-            <img src="_assets/_images/layout-promoção.png" class="img-fluid">
-        </a>
-    </div>
+    <section>
+        <div id="banner">
+            <a href="#">
+                <img src="_assets/_images/layout-promoção.png" class="visivel-desk img-fluid">
+                <img class="visivel-mobile img-fluid" src="_assets/_images/layout-promoção-mobile.png">
+            </a>
+        </div>
+    </section>
+    
 
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="titulo-01 py-4 mb-0">HÁ SEMPRE UMA LOJA<br>PERTO DE VOCÊ</h2>    
+                <h2 class="font-mb-h2 titulo-01 py-4 mb-0">HÁ SEMPRE UMA LOJA<br>PERTO DE VOCÊ</h2>    
             </div>
             <div class="col-12 text-center">
-                <p class="">DIGITE O SEU CEP PARA MOSTRARMOS A LOJA MAIS PRÓXIMA</p>
+                <p class="font-mb-cep">DIGITE O SEU CEP PARA MOSTRARMOS A LOJA MAIS PRÓXIMA</p>
                 <input class="busca-cep" type="text">
             </div> 
             <div class="col-12 text-center pt-3 pb-5">
                 <input type="submit" value="BUSCAR" class="btn">
             </div>
         </div>    
-    </div>
+    </section>
      
-    <div class="fundo-laranja recuo">
+    <section class="fundo-laranja recuo">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
+                <div class="col-5 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
                     <div class="ico">
                         <img class="img-fluid" src="_assets/_images/icone-tempo.png">
                         <h3 class="texto-ico mb-0">ÓCULOS EM<br>40 MINUTOS</h3>
@@ -72,7 +77,7 @@
                         </p>
                     </div>           
                 </div>
-                <div class="col-10 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
+                <div class="col-5 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
                     <div class="ico">
                         <img class="img-fluid" src="_assets/_images/icone-lente.png">
                         <h3 class="texto-ico mb-0">LENTES DE<br>CONTATO</h3>
@@ -81,7 +86,7 @@
                         </p>
                     </div>              
                 </div>
-                <div class="col-10 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
+                <div class="col-5 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
                     <div class="ico">
                         <img class="img-fluid" src="_assets/_images/icone-laboratorio.png">
                         <h3 class="texto-ico mb-0">LABORATÓRIO<br>PRÓPRIO</h3>
@@ -90,7 +95,7 @@
                         </p>
                     </div>        
                 </div>
-                <div class="col-10 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
+                <div class="col-5 col-sm-6 col-md-4 col-lg-3 px-1 box-num">
                     <div class="ico">
                         <img class="img-fluid" src="_assets/_images/icone-atendimento.png">
                         <h3 class="texto-ico mb-0">ATENDIMENTO<br>NOTA 1000</h3>
@@ -101,31 +106,31 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     
-    <div class="container pb-5">
+    <section class="container pb-5">
         <div class="text-center">
             <h2 class="titulo-01 py-5 mb-0">TRABALHAMOS COM AS<br>MELHORES MARCAS DO MERCADO</h2>
         </div>
         <div class="row text-center">
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <img src="_assets/_images/02-temp-logo-alcon.png" class="img-fluid">
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <img src="_assets/_images/02-temp-logo-essilor.png" class="img-fluid">
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <img src="_assets/_images/02-temp-logo-johnson.png" class="img-fluid">
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <img src="_assets/_images/02-temp-logo-rayban.png" class="img-fluid">
             </div>
         </div>
-    </div>            
+    </section>            
    
-    <div id="cadastro-e-social">        
-        <div class="row">
-            <div class="col-6 fundo-azul text-center py-4">
+    <section id="cadastro-e-social">        
+        <div class="row m-0">
+            <div class="col-lg-6 fundo-azul text-center py-4">
                 <h2 class="texto-cadastro py-4">CADASTRE-SE PARA RECEBER NOSSAS<br>NOVIDADES E PROMOÇÕES</h2>
                 <input class="busca-cadastro" type="text" placeholder="Seu e-mail">
                 <div class="py-3">
@@ -133,7 +138,7 @@
                 </div>
                 
             </div>
-            <div class="col-3 fundo-laranja text-center py-5">
+            <div class="col-lg-3 fundo-laranja text-center py-5">
                 <h2 class="texto-cadastro">FIQUE POR<br>DENTRO DAS<br>NOSSAS REDES<br>SOCIAIS</h2>
                 <div class="pt-5">
                     <img src="_assets/_images/03-icon-facebook.png" class="img-fluid img-logo">
@@ -141,11 +146,11 @@
                     <img src="_assets/_images/03-icon-youtube.png" class="img-fluid img-logo">
                 </div>
             </div>
-            <div class="col-3 pl-0">
+            <div class="col-lg-3 px-0">
                 <img src="_assets/_images/img-instagram.png" class="img-fluid">
             </div>
         </div>        
-    </div>
+    </section>
 
     <footer class="fundo-cinza">
         <div class="container">

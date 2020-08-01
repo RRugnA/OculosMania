@@ -1,0 +1,46 @@
+@media only screen and (max-width: 576px){
+    .box-num:nth-child(n+3) img {
+        margin: 0;
+        margin-bottom: 20px;
+    } 
+    
+    .font-mb-h2{
+        font-size: 100%;
+    }
+
+    .font-mb-cep{
+        font-size: 14px;
+    }
+
+    .logo-top{
+        width: 50%;
+    }
+
+    .recuo{
+        margin-top: 100px;
+    }
+
+    .texto-ico{
+        font-size: 16px;
+    }
+
+    .descricao{
+        font-size: 10px;
+    }
+
+    .busca-cep{
+        width: 80%;
+    }
+
+    .visivel-mobile{
+        display: inherit;
+    }
+    
+    .visivel-desk{
+        display: none;
+    }
+
+    .titulo-01{
+        font-size: 18px;
+    }
+}

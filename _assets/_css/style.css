@@ -4,8 +4,9 @@
     font-size: 100%;
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+    overflow-x: inherit;
 }
+
 .logo-top{
     width: 75%;
     padding: 20px 0px;
@@ -119,14 +120,6 @@
         margin: 0;
     } 
 }
-@media only screen and (max-width: 576px){
-    .box-num:nth-child(n+2) img {
-        margin: 0;
-        margin-bottom: 20px;
-    } 
-}
-@media only screen and (max-width: 450px){
-    .logo-top{
-        width: 50%;
-    }
+.visivel-mobile{
+    display: none;
 }
