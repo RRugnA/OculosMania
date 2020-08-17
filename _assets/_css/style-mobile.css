@@ -1,15 +1,11 @@
 @media only screen and (max-width: 576px){
     .box-num:nth-child(n+3) img {
-        margin: 0;
-        margin-bottom: 20px;
+        margin: 0 0 20px;
+        border-top: 10px solid #FFB900;
     } 
     
-    .font-mb-h2{
-        font-size: 100%;
-    }
-
-    .font-mb-cep{
-        font-size: 14px;
+    .titulo-principal{
+        font-size: 22px;
     }
 
     .logo-top{
@@ -17,7 +13,7 @@
     }
 
     .recuo{
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .texto-ico{
@@ -25,22 +21,18 @@
     }
 
     .descricao{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .busca-cep{
         width: 80%;
     }
 
-    .visivel-mobile{
-        display: inherit;
+    .texto-cadastro{
+        font-size: 25px;
     }
-    
-    .visivel-desk{
-        display: none;
-    }
-
-    .titulo-01{
-        font-size: 18px;
+    .busca-cadastro{
+        border-radius: 25px;
+        height: 50px;
     }
 }
